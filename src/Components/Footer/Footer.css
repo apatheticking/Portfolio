@@ -1,0 +1,55 @@
+@import url('https://fonts.googleapis.com/css?family=Abril+Fatface|Anton|Pacifico|Roboto');
+@import url('https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css');
+
+.footer {
+	border-width: 2px 0px 0px 0px;
+	border-style: solid;
+	border-color: #ffffff;
+
+	color: #4d94ff;
+
+	width: 100%;
+	height: 25%;
+	display: block;
+	position: absolute;
+    bottom: 0px;
+	
+	background: #45484d; /* Old browsers */
+	background: -moz-linear-gradient(top, #45484d 0%, #000000 100%); /* FF3.6-15 */
+	background: -webkit-linear-gradient(top, #45484d 0%,#000000 100%); /* Chrome10-25,Safari5.1-6 */
+	background: linear-gradient(to bottom, #45484d 0%,#000000 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#45484d', endColorstr='#000000',GradientType=0 ); /* IE6-9 */
+}
+
+.footerText{
+	font-size: 1.25em;
+	font-family: 'Roboto', sans-serif;
+}
+
+.footerText h3{
+	
+	font-family: 'Roboto', sans-serif;
+	font-weight: 700;
+}
+
+.siteMap {
+	list-style: none;
+}
+
+.siteMap li:hover {
+	list-style: none;
+	background-color: #002966;
+}
+
+.spacing {
+	padding: 5px, 0px, 0px, 0px;
+	margin-top: 1em;
+	margin-bottom: 1em;
+}
+
+.line {
+  border-left: 2px solid #4d94ff;
+  padding-right: 0px;
+  height: 8em;
+  width: 1px;
+}
