@@ -2,7 +2,7 @@
   "name": "react-toolbox",
   "version": "0.1.0",
   "private": true,
-  "homepage": "http://apatheticking.github.io/Portfolio",
+  "homepage": "http://apatheticking.github.io/Portfolio/",
   "dependencies": {
     "bootstrap": "^3.3.7",
     "react": "^16.2.0",
