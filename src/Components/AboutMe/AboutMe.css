@@ -1,0 +1,17 @@
+@import url('https://fonts.googleapis.com/css?family=Abril+Fatface|Anton|Pacifico|Roboto');
+
+h1 {
+	border-bottom: 2px solid #4d94ff;
+	border-right: 2px solid #4d94ff;
+
+	-webkit-box-shadow: 4px 6px 5px 0px rgba(0,0,0,0.75);
+	-moz-box-shadow: 4px 6px 5px 0px rgba(0,0,0,0.75);
+	box-shadow: 4px 6px 5px 0px rgba(0,0,0,0.75);
+}
+
+.AboutTitle {
+	font-weight: 700;
+	font-family: 'Roboto', sans-serif;
+	color: #4d94ff;
+	font-style: italic;
+}

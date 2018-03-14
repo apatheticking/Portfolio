@@ -1,5 +1,16 @@
 .App {
 	background-color: white;
+	justify-content: center;
+}
+
+.Container{
+	height: 100%;
+	padding-top: 100px;
+	min-height: 100%; /* will cover the 100% of viewport */
+ 	overflow: hidden;
+ 	display: block;
+ 	position: relative;
+ 	padding-bottom: 200px; /* height of your footer */
 }
 
 

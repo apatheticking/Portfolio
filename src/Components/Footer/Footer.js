@@ -2,33 +2,33 @@ import React from 'react';
 import { Grid, Row, Col } from 'react-bootstrap';
 import './Footer.css';
 
-const Footer = () =>{
+const Footer = ({ onRouteChange }) =>{
 	return(
 		<div className="footer">
 			<Grid>
 				<Row>
 					<div className="footerText">
-						<Col xs={2} md={2}>
+						<Col xs={6} md={2}>
 							<h3>Site Map</h3>
 								<ul className="siteMap">
-									<li>Resume</li>
-									<li>Portfolio</li>
-									<li>Contact Me</li>
+									<li onClick={() => {onRouteChange('AboutMe')}}>About Me</li>
+									<li onClick={() => {onRouteChange('Resume')}}>Resume</li>
+									<li onClick={() => {onRouteChange('Portfolio')}}>Portfolio</li>
+									<li onClick={() => {onRouteChange('ContactMe')}}>Contact Me</li>
 								</ul>
 						</Col>
-					
+						{/*
 						<Col xs={1} md={1}>
-							<div className="spacing line"></div>
+							<div className="line"></div>
 						</Col>
-
-						<Col xs={4} md={4}>
+						*/}
+						<Col xs={6} md={10}>
 							<h3>Contact Me</h3>
 							<p>
-								Email: jjlee16@gmail.com <br />
-								Phone Number: 416-912-1070 <br />
+								Email: <a href="mailto:jjlee16@gmail.com">jjlee16@gmail.com</a> <br />
+								Phone Number: <a href="tel:416-912-1070">416-912-1070</a> <br />
 							</p>
-								<a href="#"><i className="fa fa-linkedin"></i></a>{" "}
-								<a href="#"><i className="fa fa-google-plus"></i></a>
+								<a href="https://www.linkedin.com/in/jeffrey-lee-80760a48/"><i className="fa fa-linkedin"></i></a>{" "}
 						</Col>
 					</div>
 				</Row>

@@ -1,0 +1,14 @@
+.title h1 {
+	color: #4d94ff;
+	font-weight: 700;
+}
+
+.email input {
+	margin-bottom: 4px;
+	width: 250px;
+}
+
+.message textarea {
+	width: 100%;
+	height: 300px;
+}
