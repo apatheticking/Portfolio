@@ -5,7 +5,7 @@ import './Resume.css';
 const Resume = () => {
 	return(
 		<div>
-			<h1>Jeffrey Lee's Resume</h1>
+			<h1 className="Title">Jeffrey Lee's Resume</h1>
 				<Tabs className="tab" defaultActiveKey={1}>
 					<Tab eventKey={1} title="Profile">
 					    <Panel>

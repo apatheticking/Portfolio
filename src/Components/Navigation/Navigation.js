@@ -1,5 +1,5 @@
 import React from 'react';
-import { Navbar, Nav, NavItem } from 'react-bootstrap';
+import { Navbar, Nav, NavItem, Grid, Col, Row } from 'react-bootstrap';
 import './Navigation.css';
 
 const Navigation = ({ onRouteChange }) => {
@@ -11,6 +11,7 @@ const Navigation = ({ onRouteChange }) => {
           <Navbar.Brand className="logo">
             <a href="#" onClick={() => {onRouteChange('AboutMe')}}><span>Jeffrey Lee</span></a>
           </Navbar.Brand>
+          <Navbar.Toggle />
           </Navbar.Header>
             <Navbar.Collapse>
               <Navbar.Text className="navText">

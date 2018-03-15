@@ -7,7 +7,8 @@ import Resume from './Components/Resume/Resume';
 import ContactMe from './Components/ContactMe/ContactMe';
 import Portfolio from './Components/Portfolio/Portfolio';
 
-import { Grid, Row, Col } from 'react-bootstrap';
+import { Grid, Row, Col, Panel } from 'react-bootstrap';
+
 import './App.css';
 
 class App extends Component { 
@@ -31,7 +32,7 @@ class App extends Component {
 	    } else if ( route === 'Resume'){
 	    	display = <Resume />
 	    } else if ( route === 'Portfolio' ) {
-	    	display = <Portfolio />;
+	    	display = <Portfolio />
 	    } else if ( route === 'ContactMe' ) {
 	    	display = <ContactMe />
 	    }
@@ -50,16 +51,20 @@ class App extends Component {
 					        	<PhotoFrame />
 					    	</Col>
 					    	<Col sm="12" md="8">
-					    		<div>
-					    			{display}
-					    		</div>
+					    		<Panel className="ContentPanel">
+						    		<div>
+						    			{display}
+						    		</div>
+					    		</Panel>
 					    	</Col>
 				    	</div>
 		  			</Row>
 		  			<Row>
-		        		<Col>
-		        			<Footer onRouteChange={this.onRouteChange}/>
-		    			</Col>
+		  				<div className="Footer">
+			        		<Col>
+			        			<Footer onRouteChange={this.onRouteChange}/>
+			    			</Col>
+		    			</div>
 		    		</Row>
 		    	</Grid>
 	      </div>

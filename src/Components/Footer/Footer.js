@@ -29,6 +29,7 @@ const Footer = ({ onRouteChange }) =>{
 								Phone Number: <a href="tel:416-912-1070">416-912-1070</a> <br />
 							</p>
 								<a href="https://www.linkedin.com/in/jeffrey-lee-80760a48/"><i className="fa fa-linkedin"></i></a>{" "}
+								<a href="https://github.com/apatheticking/Portfolio"><i className="fa fa-github"></i></a><br />
 						</Col>
 					</div>
 				</Row>
